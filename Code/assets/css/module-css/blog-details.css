@@ -1,0 +1,435 @@
+
+/** blog-details-content **/
+
+.blog-details-content{
+  position: relative;
+}
+
+.blog-details-content .content-one .image-box .image{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.blog-details-content .content-one .image-box .image img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.blog-details-content .content-one h2{
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  color: #004274;
+  margin-bottom: 20px;
+}
+
+.blog-details-content .content-one p{
+  margin-bottom: 40px;
+}
+
+.blog-details-content blockquote{
+  position: relative;
+  display: block;
+  background: #E9F6F6;
+  border-radius: 30px;
+  text-align: center;
+  padding: 84px 70px;
+  margin: 0px 0px 40px 0px;
+}
+
+.blog-details-content blockquote .icon-box{
+  position: absolute;
+  top: 130px;
+  right: 67px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.blog-details-content blockquote span{
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 42px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.blog-details-content blockquote h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.blog-details-content .content-two .image-box{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  margin-right: 0px;
+}
+
+.blog-details-content .content-two .image-box img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.blog-details-content .post-share-option{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-details-content .post-share-option h2{
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  color: #004274;
+  margin-bottom: 20px;
+}
+
+.blog-details-content .post-share-option .tags-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.blog-details-content .post-share-option .tags-list li{
+  margin-right: 10px;
+}
+
+.blog-details-content .post-share-option .tags-list li a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 29px;
+  color: #202C38;
+  background: #F2F6F7;
+  padding: 12px 23px 8px 23px;
+}
+
+.blog-details-content .post-share-option .tags-list li a:hover{
+  color: #fff;
+}
+
+.blog-details-content .post-share-option .post-share{
+  position: relative;
+  text-align: right;
+}
+
+.blog-details-content .post-share-option .share-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.blog-details-content .post-share-option .share-list li{
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.blog-details-content .post-share-option .share-list li:last-child{
+  margin: 0px !important;
+}
+
+.blog-details-content .post-share-option .share-list li a{
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 34px;
+  background: #3A559F;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.blog-details-content .post-share-option .share-list li:nth-child(2) a{
+  background: #26A6D1;
+}
+
+.blog-details-content .post-share-option .share-list li:nth-child(3) a{
+  background: #007AB9;
+}
+
+.blog-details-content .comment-area{
+  position: relative;
+  background: #FAFAFA;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.blog-details-content .comment-area h2{
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.blog-details-content .comment-area .comment{
+  position: relative;
+  display: block;
+  padding-left: 100px;
+  margin-bottom: 30px;
+}
+
+.blog-details-content .comment-area .comment:last-child{
+  margin-bottom: 0px;
+}
+
+.blog-details-content .comment-area .comment.replay-comment{
+  margin-left: 60px;
+}
+
+.blog-details-content .comment-area .comment .thumb-box{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.blog-details-content .comment-area .comment .thumb-box img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.blog-details-content .comment-area .comment .info{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.blog-details-content .comment-area .comment .info li{
+  position: relative;
+  display: inline-block;
+  font-size: 26px;
+  line-height: 50px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+}
+
+.blog-details-content .comment-area .comment p{
+  margin-bottom: 30px;
+}
+
+.blog-details-content .comment-area .comment .reply-btn{
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.blog-details-content .comment-area .comment-form h2{
+  margin-bottom: 16px;
+}
+
+.blog-details-content .comment-area .comment-form p{
+  margin-bottom: 20px;
+}
+
+.blog-details-content .comment-area .comment-form form{
+  position: relative;
+  margin: 0px 10px;
+}
+
+.blog-details-content .comment-area .comment-form .form-group{
+  position: relative;
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+
+.blog-details-content .comment-area .comment-form .form-group:last-child{
+  margin-bottom: 0px;
+}
+
+.blog-details-content .comment-area .comment-form .form-group input[type='text'],
+.blog-details-content .comment-area .comment-form .form-group input[type='email'],
+.blog-details-content .comment-area .comment-form .form-group textarea{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 65px;
+  background: #fff;
+  border: 1px solid #fff;
+  font-size: 16px;
+  color: #BDBDBD;
+  padding: 10px 30px;
+  transition: all 500ms ease;
+}
+
+.blog-details-content .comment-area .comment-form .form-group textarea{
+  height: 205px;
+  resize: none;
+}
+
+.blog-details-content .comment-area .comment-form .form-group input:focus,
+.blog-details-content .comment-area .comment-form .form-group textarea:focus{
+
+}
+
+.blog-details-content .comment-area .comment-form .form-group.message-btn{
+  padding-top: 30px;
+}
+
+.blog-details-content .comment-area .comment-form .form-group .theme-btn{
+  padding: 13px 45px;
+}
+
+
+/** rtl-css **/
+
+.rtl .blog-details-content .post-share-option .tags-list li{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .blog-details-content .post-share-option .share-list li{
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.rtl .blog-details-content .comment-area .comment{
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+.rtl .blog-details-content .comment-area .comment .thumb-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .blog-details-content .comment-area .comment.replay-comment{
+  margin-left: 0px;
+  margin-right: 60px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .blog-details-content .post-share-option{
+    display: block;
+  }
+
+  .blog-details-content .post-share-option .post-share{
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .blog-details-content .post-share-option .share-list{
+    justify-content: left;
+  }
+
+  .rtl .blog-details-content .post-share-option .post-share{
+    text-align: right;
+  }
+
+  .rtl .blog-details-content .post-share-option .share-list{
+    justify-content: right;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .blog-details-content blockquote{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .blog-details-content .comment-area .comment.replay-comment{
+    margin-left: 0px;
+  }
+
+  .rtl .blog-details-content .comment-area .comment.replay-comment{
+    margin-right: 0px;
+  }
+
+  .blog-details-content .comment-area{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+  .blog-details-content .post-share-option .tags-list{
+    display: block;
+  }
+
+  .blog-details-content .post-share-option .tags-list li{
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .blog-details-content .comment-area .comment{
+    padding-left: 0px;
+  }
+
+  .rtl .blog-details-content .comment-area .comment{
+    padding-right: 0px;
+  }
+
+  .blog-details-content .comment-area .comment .thumb-box{
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .blog-details-content .comment-area .comment .info li{
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

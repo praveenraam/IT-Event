@@ -1,0 +1,146 @@
+
+/** error-section **/
+
+.error-section{
+  position: relative;
+  padding: 440px 0px;
+}
+
+.error-section .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.error-section .bg-layer:before{
+  position: absolute;
+  content: '';
+  background: #001C3D;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.8;
+}
+
+.error-section .inner-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-section .content-box span{
+  position: relative;
+  display: block;
+  font-size: 50px;
+  line-height: 120px;
+  font-family: var(--secondary-font);
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.error-section .content-box h1{
+  position: relative;
+  display: block;
+  font-size: 400px;
+  line-height: 367px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.error-section .content-box h2{
+  font-size: 80px;
+  line-height: 90px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .error-section .content-box h1{
+    font-size: 300px;
+    line-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .error-section .content-box h1{
+    font-size: 150px;
+    line-height: 200px;
+  }
+
+  .error-section .content-box h2{
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .error-section{
+    padding: 200px 0px 100px 0px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+
+/** pricing-section **/
+
+.pricing-section{
+  position: relative;
+}
+
+.pricing-section .title-inner{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing-section .content-inner{
+  position: relative;
+  margin: 0px -61px;
+}
+
+.pricing-section .pricing-block{
+  padding: 0px 76px;
+}
+
+.pricing-block-one .pricing-table{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.pricing-block-one .pricing-table .image-box{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.pricing-block-one .pricing-table .image-box img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.pricing-block-one .pricing-table h2{
+  position: relative;
+  display: block;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.pricing-block-one .pricing-table h2 span{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.pricing-block-one .pricing-table h3{
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #6A6A6A;
+}
+
+.pricing-block-one .pricing-table .feature-list li{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.pricing-block-one .pricing-table .feature-list li del{
+  opacity: 0.4;
+}
+
+.pricing-block-one .pricing-table .link a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+
+/** rtl-css **/
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .pricing-section{
+    padding: 70px 0px 40px 0px;
+  }
+
+  .pricing-section .title-inner{
+    display: block;
+  }
+
+  .pricing-section .title-inner .sec-title{
+    margin-bottom: 30px;
+  }
+
+  .pricing-section .title-inner p br{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

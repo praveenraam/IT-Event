@@ -1,0 +1,176 @@
+
+.rtl {
+  direction: rtl; 
+}
+
+.ltr {
+  direction: ltr; 
+}
+
+.rtl .switcher{
+  right: 60px;
+  left: inherit;
+}
+
+.rtl .switcher .switch_menu{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .owl-carousel{
+  direction: ltr;
+}
+
+.rtl .scroll-to-top .scroll-bar{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .main-menu .navigation > li{
+  float: right;
+}
+
+.rtl .main-menu .navigation > li:first-child{
+  margin-left: 15px !important;
+  margin-right: 0px;
+}
+
+.rtl .main-menu .navigation > li:last-child{
+  margin-right: 15px !important;
+  margin-left: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a, 
+.rtl .main-menu .navigation > li > .megamenu li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation li.dropdown .megamenu li h4{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after{
+  right: inherit;
+  left: 20px;
+  content: "\f104";
+}
+
+.rtl .mobile-menu{
+  text-align: right;
+}
+
+.rtl .mobile-menu .nav-logo{
+  text-align: right;
+}
+
+.rtl .mobile-menu .navigation li > a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+  right: inherit;
+  left: 6px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn.open{
+  transform: rotate(-90deg);
+}
+
+.rtl .scroll-to-top{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .sec-title:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .sec-title.centred:before{
+  right: inherit;
+}
+
+.rtl .main-footer .title-text:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .main-footer .newsletter-widget .location-box span{
+  padding-left: 0px;
+  padding-right: 25px;
+}
+
+.rtl .main-footer .newsletter-widget .location-box span img{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .main-footer .logo-widget .social-links li{
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.rtl .main-footer .instagram-widget .image-list li{
+  float: right;
+}
+
+.rtl .main-header .menu-right-content .btn-box{
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.rtl .main-header .menu-right-content .social-links li{
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.rtl .footer-bottom .bottom-inner .social-links li{
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.rtl .mobile-menu .navigation li ul li > a{
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.rtl .pagination li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

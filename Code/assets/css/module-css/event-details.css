@@ -1,0 +1,262 @@
+
+/** event-details **/
+
+.event-details{
+  position: relative;
+}
+
+.event-details .carousel-content .owl-nav{
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  margin-top: -25px;
+  width: 100%;
+}
+
+.event-details .carousel-content .owl-nav .owl-prev{
+  position: absolute;
+  left: 20px;
+}
+
+.event-details .carousel-content .owl-nav .owl-next{
+  position: absolute;
+  right: 20px;
+}
+
+.event-details .carousel-content .owl-nav button{
+  background: #fff;
+}
+
+.event-details .carousel-content .owl-nav button:hover{
+  color: #fff;
+}
+
+.event-details .carousel-content .image-box{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+}
+
+.event-details .carousel-content .image-box img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.event-details .content-box .title-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.event-details .content-box .title-box h2{
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.event-details .content-box .title-box .time{
+  position: relative;
+  display: block;
+  font-size: 28px;
+  line-height: 29px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  padding-left: 35px;
+}
+
+.event-details .content-box .title-box .time i{
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  font-size: 25px;
+}
+
+.event-details .content-box .text-box p{
+  margin-bottom: 25px;
+}
+
+.event-details .content-box .list-inner{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.event-details .content-box .list-inner .list-item li{
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 35px;
+}
+
+.event-details .content-box .list-inner .list-item li:before{
+  position: absolute;
+  content: '\e911';
+  font-family: 'icomoon';
+  font-size: 18px;
+  left: 0px;
+  top: 0px;
+}
+
+.event-details .single-info-box{
+  position: relative;
+  display: block;
+  border: 1px solid #E6E6E6;
+  background: #FAFAFA;
+  border-radius: 5px;
+  padding: 41px 30px 49px 40px;
+  margin-bottom: 20px;
+}
+
+.event-details .single-info-box .light-icon{
+  position: absolute;
+  right: 16px;
+  bottom: 11px;
+}
+
+.event-details .single-info-box h3{
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+.event-details .single-info-box span{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  padding-left: 22px;
+}
+
+.event-details .single-info-box span img{
+  position: absolute;
+  left: 0px;
+  top: 1px;
+}
+
+.event-details .map-inner{
+  position: relative;
+  height: 480px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.event-details .map-inner iframe{
+  position: relative;
+  width: 100%;
+  height: 480px;
+}
+
+
+/** rtl-css **/
+
+.rtl .event-details .content-box .title-box .time,
+.rtl .event-details .content-box .list-inner .list-item li{
+  padding-left: 0px;
+  padding-right: 35px;
+}
+
+.rtl .event-details .content-box .title-box .time i,
+.rtl .event-details .content-box .list-inner .list-item li:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .event-details .single-info-box span{
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .event-details .single-info-box span img{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .event-details .single-info-box .light-icon{
+  right: inherit;
+  left: 16px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .event-details .content-box .title-box{
+    display: block;
+  }
+
+  .event-details .content-box .title-box .title-text{
+    margin-bottom: 20px;
+  }
+
+  .event-details{
+    padding: 70px 0px;
+  }
+
+  .event-details .content-box .list-inner{
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

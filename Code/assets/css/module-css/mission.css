@@ -1,0 +1,220 @@
+
+/** mission-section **/
+
+.mission-section{
+  position: relative;
+}
+
+.mission-block-one .inner-box{
+  position: relative;
+  display: block;
+  background: #FAFAFA;
+  padding: 60px 50px 50px 50px;
+  margin-bottom: 30px;
+  transition: all 500ms ease;
+}
+
+.mission-block-one .inner-box:hover{
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.mission-block-one .inner-box .icon-box{
+  position: relative;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.mission-block-one .inner-box h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+
+.mission-block-one .inner-box h3 a{
+  position: relative;
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.mission-block-one .inner-box h3 a:hover{
+
+}
+
+.mission-block-one .inner-box p{
+  margin-bottom: 15px;
+}
+
+.mission-block-one .inner-box .link a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 29px;
+  color: var(--text-color);
+}
+
+.mission-block-one .inner-box .link a:hover{
+
+}
+
+.mission-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 432px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+
+/** mission-style-two **/
+
+.mission-style-two{
+  position: relative;
+}
+
+.mission-style-two .pattern-layer .pattern-1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 432px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.mission-style-two .mission-block-one .inner-box{
+  background: transparent;
+  padding-bottom: 0px;
+  box-shadow: none !important;
+}
+
+.mission-block-one .inner-box .count-text{
+  position: absolute;
+  left: 35%;
+  top: 0px;
+  transform: translateX(-50%);
+  font-size: 400px;
+  line-height: 200px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  color: rgba(106, 106, 106, 0.10);
+}
+
+.mission-style-two .pattern-layer .pattern-2{
+  position: absolute;
+  left: 0px;
+  top: 117px;
+  width: 92px;
+  height: 144px;
+  background-repeat: no-repeat;
+}
+
+.mission-style-two .pattern-layer .pattern-3{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 121px;
+  height: 134px;
+  background-repeat: no-repeat;
+}
+
+.mission-style-two .pattern-layer .pattern-4{
+  position: absolute;
+  top: 469px;
+  right: 778px;
+  width: 98px;
+  height: 107px;
+  background-repeat: no-repeat;
+}
+
+.mission-style-two.home-3 .pattern-layer .pattern-4{
+  top: 150px;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .mission-section,
+  .mission-style-two{
+    padding: 70px 0px 40px 0px;
+  }
+
+  .mission-style-two .pattern-layer{
+    display: none;
+  }
+
+  .mission-style-two.home-3{
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .mission-block-one .inner-box{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

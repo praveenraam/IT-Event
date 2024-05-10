@@ -1,0 +1,136 @@
+
+/** faq-page-section **/
+
+.faq-page-section{
+  position: relative;
+}
+
+.accordion{
+  position: relative;
+}
+
+.accordion .acc-btn{
+  position: relative;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  padding: 22px 30px 22px 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accordion .acc-btn.active{
+  color: #fff;
+}
+
+.accordion .acc-content{
+  padding: 30px;
+}
+
+.accordion .acc-content p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.accordion .acc-btn .icon-box{
+  position: absolute;
+  left: 22px;
+  top: 28px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.accordion .acc-btn .icon-box:before{
+  position: absolute;
+  content: '';
+  background: #E1E1E1;
+  width: 1px;
+  height: 35px;
+  top: -8px;
+  right: -30px;
+}
+
+.accordion .acc-btn.active .icon-box:before{
+  opacity: 0.5;
+}
+
+.accordion .acc-btn .icon-box i{
+  position: relative;
+  display: inline-block;
+  transition: all 500ms ease;
+}
+
+.accordion .acc-btn.active .icon-box i{
+  transform: rotate(45deg);
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .faq-page-section{
+    padding: 70px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

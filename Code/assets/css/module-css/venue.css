@@ -1,0 +1,156 @@
+
+/** venue-section **/
+
+.venue-section{
+  position: relative;
+}
+
+.venue-block-one .inner-box{
+  position: relative;
+  display: block;
+  padding: 32px 30px 30px 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.venue-block-one .inner-box .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.venue-block-one .inner-box h2{
+  position: relative;
+  display: block;
+  font-size: 60px;
+  line-height: 76px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  margin-bottom: 434px;
+}
+
+.venue-block-one .inner-box .text-box{
+  position: relative;
+  display: inline-block;
+  padding: 18px 43px 18px 37px;
+  border-radius: 10px;
+}
+
+.venue-block-one .inner-box .text-box h4{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: var(--secondary-font);
+  color: #fff;
+  font-weight: 700;
+}
+
+.venue-block-one .inner-box .text-box h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.venue-block-one .inner-box .text-box h3 span{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+/** rtl-css **/
+
+.rtl .address-section .single-info-box span{
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .address-section .single-info-box span img{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .address-section .single-info-box .light-icon{
+  right: inherit;
+  left: 16px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .venue-section{
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .venue-block-one .inner-box h2{
+    margin-bottom: 250px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

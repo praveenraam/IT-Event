@@ -1,0 +1,264 @@
+
+/** address-section **/
+
+.address-section{
+  position: relative;
+}
+
+.address-section .single-info-box{
+  position: relative;
+  display: block;
+  border: 1px solid #E6E6E6;
+  background: #FAFAFA;
+  border-radius: 5px;
+  padding: 45px 30px 53px 40px;
+  margin-bottom: 30px;
+}
+
+.address-section .single-info-box .light-icon{
+  position: absolute;
+  right: 16px;
+  bottom: 11px;
+}
+
+.address-section .single-info-box h3{
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+.address-section .single-info-box span{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  padding-left: 22px;
+}
+
+.address-section .single-info-box span img{
+  position: absolute;
+  left: 0px;
+  top: 1px;
+}
+
+.address-section .image-box{
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.address-section .image-box img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/** contact-section **/
+
+.contact-section{
+  position: relative;
+}
+
+.contact-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-section .form-inner{
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  padding: 130px 160px;
+}
+
+.contact-section .form-inner .form-group{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.contact-section .form-inner .form-group:last-child{
+  margin-bottom: 0px;
+}
+
+.contact-section .form-inner .form-group input[type='text'],
+.contact-section .form-inner .form-group input[type='email'],
+.contact-section .form-inner .form-group textarea{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 65px;
+  background: #F6F7F9;
+  border: 1px solid #F6F7F9;
+  font-size: 16px;
+  padding: 10px 30px;
+  transition: all 500ms ease;
+}
+
+.contact-section .form-inner .form-group textarea{
+  height: 205px;
+  resize: none;
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+.contact-section .form-inner .form-group input:focus,
+.contact-section .form-inner .form-group textarea:focus{
+
+}
+
+.contact-section .info-inner{
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #E6E6E6;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  padding: 40px 35px;
+}
+
+.contact-section .info-inner h6{
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.contact-section .info-inner .info-list li{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  padding-left: 21px;
+  margin-bottom: 5px;
+}
+
+.contact-section .info-inner .info-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.contact-section .info-inner .info-list li i{
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  font-size: 15px;
+}
+
+.contact-section .info-inner .info-list li a{
+  display: inline-block;
+}
+
+.contact-section .info-inner .info-list li a:hover{
+  text-decoration: underline;
+}
+
+
+/** rtl-css **/
+
+.rtl .contact-section .info-inner .info-list li{
+  padding-left: 0px;
+  padding-right: 21px;
+}
+
+.rtl .contact-section .info-inner .info-list li i{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .address-section .single-info-box span{
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .address-section .single-info-box span img{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .address-section .single-info-box .light-icon{
+  right: inherit;
+  left: 16px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .contact-section .form-inner{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .contact-section{
+    padding: 70px 0px;
+  }
+
+  .contact-section .form-inner{
+    padding: 60px 30px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

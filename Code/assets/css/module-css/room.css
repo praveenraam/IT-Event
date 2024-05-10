@@ -1,0 +1,146 @@
+
+/** room-section **/
+
+.room-section{
+  position: relative;
+}
+
+.room-section .image-box{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+
+.room-section .image-box img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.room-section .content-box h2{
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.room-section .content-box span{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 40px;
+}
+
+.room-section .room-sidebar{
+  position: relative;
+  display: block;
+  border: 1px solid #E6E6E6;
+  background: #FAFAFA;
+  border-radius: 5px;
+  padding: 32px 30px 60px 33px;
+}
+
+.room-section .room-sidebar h3{
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 30px;
+}
+
+.room-section .room-sidebar span{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  padding-left: 21px;
+}
+
+.room-section .room-sidebar span img{
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+
+
+/** rtl-css **/
+
+.rtl .room-section .room-sidebar span{
+  padding-left: 0px;
+  padding-right: 21px;
+}
+
+.rtl .room-section .room-sidebar span img{
+  left: inherit;
+  right: 0px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .room-section .room-sidebar{
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .room-section{
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

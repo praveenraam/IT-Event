@@ -1,0 +1,200 @@
+
+/** clients-section **/
+
+.clients-section{
+  position: relative;
+  background: #FAFAFA;
+}
+
+.clients-section:before{
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 100%;
+  height: 65px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.clients-section .pattern-layer{
+  position: absolute;
+  left: 36px;
+  top: 210px;
+  width: 136px;
+  height: 147px;
+  background-repeat: no-repeat;
+}
+
+.clients-section .clients-logo-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-section .clients-logo-list img{
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+  transition: all 500ms ease;
+}
+
+.clients-section .clients-logo-list img:hover{
+  transform: scale(1.05);
+}
+
+.clients-section .map-inner{
+  position: relative;
+  display: block;
+  height: 380px;
+}
+
+.clients-section .map-inner iframe{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 380px;
+}
+
+
+/** clients-style-two **/
+
+.clients-style-two{
+  position: relative;
+}
+
+.clients-style-two .clients-logo-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-style-two .clients-logo-list img{
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+  transition: all 500ms ease;
+}
+
+.clients-style-two .clients-logo-list img:hover{
+  transform: scale(1.05);
+}
+
+.clients-style-two .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  width: 100%;
+  height: 432px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.clients-page-section{
+  background: #fff;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .clients-section{
+    padding-top: 70px;
+  }
+
+  .clients-style-two .clients-logo-list{
+    display: block;
+    text-align: center;
+  }
+
+  .clients-style-two .clients-logo-list li{
+    margin-bottom: 30px;
+  }
+
+  .clients-style-two .clients-logo-list li:last-child{
+    margin-bottom: 0px;
+  }
+
+  .clients-style-two{
+    padding: 40px 0px 70px 0px;
+  }
+
+  .clients-page-section{
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .clients-section .clients-logo-list{
+    display: block;
+    text-align: center;
+  }
+
+  .clients-section .clients-logo-list li{
+    margin-bottom: 30px;
+  }
+
+  .clients-section .clients-logo-list li:last-child{
+    margin-bottom: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

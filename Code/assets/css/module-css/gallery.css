@@ -1,0 +1,279 @@
+
+/** gallery-section **/
+
+.gallery-section{
+  position: relative;
+}
+
+.gallery-section .title-inner{
+  position: relative;
+  padding-left: 250px;
+}
+
+.gallery-section .title-inner p{
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 420px;
+}
+
+.gallery-block-one .inner-box{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 330px 60px 70px 60px;
+  margin-bottom: 30px;
+}
+
+.gallery-block-one .inner-box .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gallery-block-one .inner-box h2{
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.gallery-block-one .inner-box h2 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.gallery-block-one .inner-box h2 a:hover{
+  text-decoration: underline;
+}
+
+.gallery-block-one .inner-box .link{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.gallery-block-one .inner-box .link a{
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  transform: scale(0,0);
+}
+
+.gallery-block-one .inner-box:hover .link a{
+  transform: scale(1,1);
+}
+
+.gallery-block-one .inner-box .link a:hover{
+  background: #fff;
+}
+
+.gallery-block-one .inner-box .link a i{
+  position: relative;
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+
+.gallery-section .pattern-layer .pattern-1{
+  position: absolute;
+  left: 90px;
+  top: 140px;
+  width: 51px;
+  height: 59px;
+  background-repeat: no-repeat;
+}
+
+.gallery-section .pattern-layer .pattern-2{
+  position: absolute;
+  left: 700px;
+  top: 487px;
+  width: 89px;
+  height: 93px;
+  background-repeat: no-repeat;
+}
+
+
+/** gallery-style-two **/
+
+.gallery-style-two{
+  position: relative;
+}
+
+.gallery-block-two .inner-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.gallery-block-two .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.gallery-block-two .inner-box .image-box img{
+  width: 100%;
+  border-radius: 20px;
+  transition: all 500ms ease;
+}
+
+.gallery-block-two .inner-box:hover .image-box img{
+  transform: scale(1.05);
+}
+
+.gallery-block-two .inner-box .link{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.gallery-block-two .inner-box .link a{
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  transform: scale(0,0);
+}
+
+.gallery-block-two .inner-box:hover .link a{
+  transform: scale(1,1);
+}
+
+.gallery-block-two .inner-box .link a:hover{
+  background: #fff;
+}
+
+.gallery-block-two .inner-box .link a i{
+  position: relative;
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+
+
+/** rtl-css **/
+
+.rtl .gallery-section .title-inner{
+  padding-left: 0px;
+  padding-right: 250px;
+}
+
+.rtl .gallery-block-one .inner-box .link{
+  right: inherit;
+  left: 15px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  .gallery-section .title-inner{
+    padding-left: 15px;
+  }
+
+  .rtl .gallery-section .title-inner{
+    padding-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .gallery-block-one{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .gallery-section{
+    padding-top: 70px;
+  }
+
+  .gallery-style-two{
+    padding-bottom: 40px;
+  }
+
+  .gallery-section.home-3{
+    padding-bottom: 70px;
+  }
+
+  .gallery-style-two.pt_140{
+    padding-top: 70px;
+  }
+
+  .gallery-section.pb_110{
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .gallery-block-one .inner-box{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .gallery-block-one .inner-box h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
